@@ -8,3 +8,28 @@ h1{
 	font-size: 30px;
 	font-weight: 500;
 }
+
+ul {
+  list-style-type: none;
+}
+
+#carousel{
+	position: absolute;
+    top: 60px;
+    left: 6%;
+}
+
+ul{
+	width: 83%;
+
+}
+
+#flechaizq{
+	position: absolute;
+    top: 170px;
+}
+#flechader{
+	position: absolute;
+    left: 40%;
+    top: 170px;
+}
