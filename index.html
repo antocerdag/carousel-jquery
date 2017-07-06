@@ -3,18 +3,52 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Carrusel Jquery</title>
+	<title>Carousel Jquery</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 	<body>
-		<h1 class="text-center"><strong>Carrusel Jquery<strong></h1>
-		<div class="container" id="carrusel">
-			<div class="row">
-					
-				
+		<header>
+			<h1 class="text-center">Carousel Jquery</h1>
+		</header>
+		<section class="carousel">
+			<div class="container" id="carousel">
+				<div class="row">
+					<div class="col-md-12 col-xs-12 ">	
+						<div id="cajacarousel">
+							<div class="row">
+								<div class="col-md-3">
+									<span class="glyphicon glyphicon-triangle-left" id="flechaizq" aria-hidden="true"></span>
+								</div>
+								<div class="col-md-6">
+									<ul>
+										<li>
+											<img src="assets/images/img1.jpg" class="img-thumbnail img-responsive imagenes center-block">
+										</li><br>
+										<li>
+											<img src="assets/images/img2.jpg" class="img-thumbnail img-responsive imagenes center-block">
+										</li><br>
+										<li>
+											<img src="assets/images/img3.jpg" class="img-thumbnail img-responsive imagenes center-block">
+										</li><br>
+										<li>
+											<img src="assets/images/img4.jpg" class="img-thumbnail img-responsive imagenes center-block">
+										</li><br>
+										<li>
+											<img src="assets/images/img5.jpg" class="img-thumbnail img-responsive imagenes center-block">
+										</li><br>
+									</ul>
+								</div>
+								<div class="col-md-3">					
+									<span class="glyphicon glyphicon-triangle-right" id="flechader" aria-hidden="true"></span>
+								</div>
+							</div>
+						</div>		
+					</div>
+				</div>
 			</div>
-		</div>
+		</section>
+		
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
